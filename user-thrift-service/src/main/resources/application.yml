@@ -1,0 +1,11 @@
+server:
+  port: 7911
+spring:
+  application:
+    name: user-thrift-service
+  datasource:
+    url: jdbc:mysql://192.168.56.128:3306/db_user
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
